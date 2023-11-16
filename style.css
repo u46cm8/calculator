@@ -1,0 +1,61 @@
+@font-face{
+    font-family:digital;
+    src: url(./Fonts/digital-7/digital-7.ttf);
+   }
+
+body {
+    background-color: black;
+    padding-top: 15%;
+}
+
+div {
+    border-style: solid ;
+    border-color: black;
+    border-radius: 10px;
+    margin: 8px;
+    font-size: 32px;
+
+}
+
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+
+}
+
+#main-calculator {
+    width: 45%;
+    margin: auto;
+    background-color: darkslateblue;
+    border-color: brown;
+}
+
+
+#display {
+    border-radius: 5px;
+   
+    height: 33px;
+    padding: 5px 5px 0px 5px;
+    background-color: lightgreen;
+    font-family: digital,Arial, Helvetica, sans-serif;
+}
+
+#TM{
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: darkgoldenrod;
+    color: burlywood;
+    text-align: center;
+    border-color: darkslateblue;
+}
+
+.button {
+    flex:0 1 28%;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+
